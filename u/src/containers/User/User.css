@@ -1,0 +1,42 @@
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 130px;
+  }
+  
+  .productcard {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+  
+    display: flex; /* so child elements can use flexbox stuff too! */
+  }
+
+  .productcard {
+    flex: 1 16%;
+  }
+
+
+  .productimage img {
+    max-width: 100%;
+  }
+
+  .productinfo {
+    margin-top: auto;
+  }
+  
+  .buynow{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+  }

@@ -1,0 +1,36 @@
+.addbottle{
+    background: #fff;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+   margin-top: 130px;
+}
+
+.addbottle .field{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.addbottle label{
+    text-align: right;
+    padding: 6px;
+}
+
+.addbottle input, form select{
+    margin: 4px 0;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.addbottle button{
+    color: #fff;
+    font-size: 2em;
+    background: #AD1457;
+    border: 0;
+    padding: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    bottom: 10px;
+    margin-left: 65%;
+}
